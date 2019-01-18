@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Application Automation Test Suite"  > 
+<!-- suite name="Suite Name" AND Please remember all the tag names should be lowered case otherwise the sytem will throw an error --> 
+
+
+
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+             <test name="Amazon Application Automation Test Cases1">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="com.amazom.qa.testcases.LoginPageAmazonTest" />
+                     </classes>
+             </test>
+
+             <test name="Amazon Application Automation Test Cases2" allow-return-values="true">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="com.amazom.qa.testcases.HomePageAmazonTest" />
+                     </classes>
+             </test>
+
+            <test name="Amazon Application Automation Test Cases3" allow-return-values="true">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="com.amazom.qa.testcases.CartPageAmazonTest" />
+                     </classes>
+             </test>
+
+
+             <test name="Amazon Application Automation Test Cases4" allow-return-values="true">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="com.amazom.qa.testcases.TodaysDealPageAmazonTest" />
+                     </classes>
+             </test>
+             
+</suite>

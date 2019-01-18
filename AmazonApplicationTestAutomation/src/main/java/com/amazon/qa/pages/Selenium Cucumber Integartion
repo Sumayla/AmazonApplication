@@ -1,0 +1,16 @@
+TestNG is a TDD framework
+
+Cucumber is a BDD Framework,gherkin a lang which describes behavoiur of the test case.
+In BDD we define behaviour
+cucumber -JVM
+Cucumber-Ruby
+Another BDD tool is JBehave ,it allows only java.But cucumbe is more user friendly.
+https://www.youtube.com/watch?v=vHzMJuc9Zuk&list=PLFGoYjJG_fqoBFPevCDZDCufDX5h-o3yO
+First we wil create a feature file and in this we will use gherkins keywords,with the help of these
+keywords we will create a scenario/outline for a feature.
+
+
+In step definition file we will write the code.(sleenium+java+annotations)
+
+
+third component will be test runner ,here we use junit 
